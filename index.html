@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tugas Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- LOGO DAN NAVBAR -->
+  <header class="navbar">
+    <a href="#beranda" class="logo">
+      <img src="assets/images/logo_portfolioku.png" alt="logo_portfolioku">
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false">&#9776;</button>
+    <nav id="navMenu">
+      <a href="#tentang">Tentang</a>
+      <a href="#tools-hobi">Tools-Hobi</a>
+      <a href="#project">Project</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <a href="https://wa.me/6285772905464" class="btn btn-small">Hubungi Aku</a>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="beranda">
+      <div class="hero-text">
+        <h1>Halo, aku Sonia Debora.<br>Dan ini tips untuk lihat portofolioku!</h1>
+        <p>Biar makin ngena, bacanya sambil nonton music videonya ya. Gabung Spotify Premium biar maksimal dengerinnya.</p>
+        <a href="#project" class="btn">Scroll ke Project-ku</a>
+      </div>
+    </section>
+
+    <!-- TENTANG AKU -->
+    <section class="about" id="tentang">
+      <div class="about-text">
+        <h2>Tentang Aku</h2>
+        <p>Aku adalah mahasiswa semester 7 program studi Teknik Informatika dari Universitas Pancasila yang saat ini sedang mengikuti program CAMP divisi Web Development dan UI/UX. Di tugas kali ini, aku membuat portfolio untuk menunjukkan kemampuan dan proyek yang telah aku kerjakan. Saya menyadari bahwa saya belum sempurna dalam beberapa aspek, tetapi saya terus belajar dan berusaha meningkatkan diri.</p>
+        <a href="https://wa.me/6285772905464" class="btn" target="_blank">Ayo Ngobrol</a>
+      </div>
+      <div class="about-img" role="img" aria-label="Foto Sonia Debora"></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="tools-hobi">
+      <div class="skills-grid">
+        <article>
+          <img src="assets/images/Laptop_pic.png" alt="Laptop" class="skill-pic">
+          <h3>Tools</h3>
+          <ul>
+            <li>Figma</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Git dan GitHub</li>
+            <li>Canva dan Capcut</li>
+          </ul>
+        </article>
+        
+        <article>
+          <img src="assets/images/Paint_pic.png" alt="Palet Warna" class="hobby-pic">
+          <h3>Hobi</h3>
+          <ul>
+            <li>Menggambar</li>
+            <li>Copywriting</li>
+            <li>Fotografi</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- CARD PROJECT-PROJECT -->
+    <section class="projects" id="project">
+      <h2>Project</h2>
+      <div class="cards">
+        
+        <article class="card">
+          <img src="assets/images/Int-Asset.png" alt="Logo Internal Asset Tracking" class="thumb">
+          <h3>Internal Asset Tracking</h3>
+          <p>Merupakan sistem informasi back-office dengan fokus bisnis sebagai pemantau lokasi dan kondisi aset perusahaan secara terkini.</p>
+          <p class="peran">Peran: Project Manager dan Full Stack Developer</p>
+          <ul class="tags">
+            <li>Laravel</li>
+            <li>MySQL</li>
+            <li>Filament</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/soniadebora205/PBW-A_Internal-Asset-Tracking.git" class="btn btn-small">Lihat Github</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/EcoTrack_logo.png" alt="Logo EcoTrack" class="thumb">
+          <h3>EcoTrack</h3>
+          <p>Merupakan sistem informasi yang menghubungkan rumah tangga, pengepul rongsok, dan perusahaan untuk jual-beli barang bekas dengan mudah.</p>
+          <p class="peran">Peran: Pemikir Konsep dan UI/UX Designer</p>
+          <ul class="tags">
+            <li>Figma</li>
+            <li>Riset</li>
+            <li>UI/UX Design</li>
+          </ul>
+          <div class="links">
+            <a href="https://www.figma.com/design/ezrEH773yVQXgZtFV2nl0D/EcoTrack?node-id=0-1&t=5hwDgklKmQWQirwD-1" class="btn btn-small">Lihat Wireframe</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/TirtaWatch_logo.png" alt="Logo TirtaWatch" class="thumb">
+          <h3>TirtaWatch</h3>
+          <p>Merupakan platform pelaporan masalah air bersih dan sanitasi yang menjembatani masyarakat dengan penyedia layanan (seperti PDAM dan Dinas Lingkungan Hidup).</p>
+          <p class="peran">Peran: UI/UX Designer dan Full Stack Developer</p>
+          <ul class="tags">
+            <li>Next.js</li>
+            <li>Tailwind CSS</li>
+            <li>Supabase</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/soniadebora205/TirtaWatch.git" class="btn btn-small">Lihat Github</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/SmrtEng_logo.png" alt="Logo Smart Engineering Industries" class="thumb">
+          <h3>Smart Engineering Industries</h3>
+          <p>Merupakan program nyata saya yang terpublikasi secara publik, dan sampai saat ini masih dalam pengembangan (belum sempurna).</p>
+          <p class="peran">Peran: Full Stack Developer</p>
+          <ul class="tags">
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>Convex</li>
+          </ul>
+          <div class="links">
+            <a href="https://smrteng.com/" class="btn btn-small">Lihat Website</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/Bongcha_logo.png" alt="Logo Bongcha Spa" class="thumb">
+          <h3>Bongcha Spa</h3>
+          <p>Merupakan platform reservasi dan manajemen layanan spa metode guest checkout yang memudahkan pelanggan untuk memesan layanan spa dengan mudah.</p>
+          <p class="peran">Peran: UI/UX Designer dan Full Stack Developer</p>
+          <ul class="tags">
+            <li>Flutter</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/soniadebora205/Bongcha_Spa.git" class="btn btn-small">Lihat Github</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- KONTAK / FOOTER -->
+  <footer class="footer" id="kontak">
+    <div class="footer-grid">
+      <div>
+        <a href="#beranda" class="logo">
+          <img src="assets/images/logo_portfolioku.png" alt="Portfolioku">
+        </a>
+        <p>Terbuka untuk kolaborasi, magang, dan diskusi seputar web dan UI/UX.</p>
+      </div>
+      <div>
+        <h3>Media Sosialku</h3>
+        <ul>
+          <li><a href="mailto:adoradebora99@gmail.com">Email</a></li>
+          <li><a href="https://github.com/soniadebora205">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/sonia-debora-napitupulu">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tautan Cepat</h3>
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#tools-hobi">Tools-Hobi</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">&copy; 2026 Portfolioku. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
