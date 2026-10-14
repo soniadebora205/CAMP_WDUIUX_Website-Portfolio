@@ -17,11 +17,11 @@ Hai, ini adalah website portfolio pribadi saya. Website portfolio ini dibuat unt
    
 
 ## 3. Tools dan Hobi
-   <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/ce7dd4d3-ea9f-441a-8836-6e6f0e25ab2c" />
+   <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/97931f2e-1229-4a98-b3ca-4378be157e1f" />
 
   
 ## 4. Project-Project
-   <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/97931f2e-1229-4a98-b3ca-4378be157e1f" />
+   <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/0a633270-5b23-48af-ade9-54e5551a4d7c" />
 
    
 ## 5. Footer
